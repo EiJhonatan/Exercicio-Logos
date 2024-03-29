@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*titulo aqui*/
+.titulo {
+    display: flex;
+    justify-content: center;
+
+}
+.titulo h1{
+    padding-top: 110px;
+    padding-bottom: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+/*PATROCINADORES aqui*/
+
+.PATROCINADORES{
+    width: 100%;
+    background-color: rgb(185, 172, 172);
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px 100px 50px;
+}
+.PATROCINADORES-logos:hover{
+    transform: scale(0.9);
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+
+.PATROCINADORES-logos{
+    list-style: none;
+    border-radius: 15px;
+    background-color: hotpink;
+    cursor: pointer;
+}
+.PATROCINADORES-logos img{
+    padding: 10px 10px 10px 10px;
+ 
+}
+
+.PATROCINADORES-logos:hover img{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+/*final aqui*/
+.final{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10px 60px 10px;
+}
+
+.final p{
+    color: gray;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
